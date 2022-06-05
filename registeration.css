@@ -1,0 +1,29 @@
+.descript{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #010c13f1;
+    background-color:#6f7074;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .bt{
+    
+    background-color:#ffff;
+    border: none;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    padding: 10px 20px;
+    color: #df0614;
+    
+  }
+  .bt:hover{
+    border-color: #FF3946 ;
+    background-color: #FF3946;
+    color: white;
+  }
